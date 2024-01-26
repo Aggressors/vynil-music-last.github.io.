@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.Album_Aphex_twin{
+    font-family: 'Playfair Display';
+    text-align: left;
+    margin-bottom: 16px;
+
+}
+.card{
+    --bs-card-border-width:none;
+}
+
+.card-title{
+    font-size: 22px;
+}
+
+.Album_Crystal_Castles{
+    font-family: 'Playfair Display';
+    text-align: left;
+    margin-bottom: 16px;
+
+}
+
+.pagination{
+  
+    justify-content: center;
+}
+

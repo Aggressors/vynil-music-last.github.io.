@@ -1,0 +1,49 @@
+body{
+    background-color:black;
+   
+
+}
+.wrapper {
+    position: relative;
+    background:url(https://wp-cpr.s3.amazonaws.com/uploads/2019/05/crystal-castles-50d43e4b0b77c.jpg);
+    -webkit-background-size: cover;
+          background-size: cover;
+          border-radius: 20%;
+          height: 450px;
+  }
+  .wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+  }
+  .inner {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    padding-top: 175px;
+    font-size: 6em;
+    font-family: 'Playfair Display';
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  @media (max-width: 648px) {
+    .inner{
+    padding-top: 100px;
+    padding-left: 30px;
+    }
+  }
+
+
+
+  .content {
+    min-height: calc(100vh - 80px);
+  }
